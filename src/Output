@@ -1,0 +1,7 @@
+log4j:WARN No appenders could be found for logger (org.springframework.context.support.ClassPathXmlApplicationContext).
+log4j:WARN Please initialize the log4j system properly.
+Undercover
+Inside SpellChecker constructor.
+Undercover
+MyClass Contructor in Process
+Inside checkSpelling.

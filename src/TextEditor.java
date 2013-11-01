@@ -3,6 +3,16 @@ public class TextEditor {
    private String name;
    private MyClass myclass;
 
+   public TextEditor()
+   {
+	   System.out.println("Undercover");
+   }
+   public TextEditor(SpellChecker spellChecker , String name)
+   {
+	   System.out.println("Selena");
+	   this.spellChecker = spellChecker;
+	   this.name = name;
+   }
    public void setSpellChecker( SpellChecker spellChecker ){
       this.spellChecker = spellChecker;
    }
